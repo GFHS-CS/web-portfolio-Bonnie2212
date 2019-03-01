@@ -1,0 +1,69 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body{
+    background-color: fuchsia;
+}
+
+h1{
+    font-size: 3em;
+}
+
+main{
+    background-color:darkslateblue;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    clear: both;
+    border: 2px solid black;
+}
+
+main p {
+    padding: 20px;
+    border: 2px dashed white;
+    margin: 20px;
+}
+
+main p::first-letter{
+    color: navy;
+    font-size:40px;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 20px auto 0 auto;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    padding: 0.25em 1em;
+    text-decoration: none;
+    background-color: darkslateblue;
+    color: red;
+    border: 1px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    background-color:yellow;
+    color:green;
+}
+
+
+
+
+/*
+<!-- an a:link has to come before an a:visited, and an a:hover has to come before an a:active-->
+*/
